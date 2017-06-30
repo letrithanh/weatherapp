@@ -51,7 +51,7 @@ function getWeather()
         $(".bg").css("background-image", "url("+imageBackground+")");
 
         document.getElementById("temperature").innerHTML =
-            "<img src='http://openweathermap.org/img/w/"+ data.weather[0].icon +
+            "<img src='https://cors-anywhere.herokuapp.com/http://openweathermap.org/img/w/"+ data.weather[0].icon +
             ".png'/>" + tempP;
 
         document.getElementById("where").innerHTML =
@@ -97,7 +97,7 @@ function defaultWeather()
         }
 
         document.getElementById("temperature").innerHTML =
-            "<img src='http://openweathermap.org/img/w/"+ data.weather[0].icon +
+            "<img src='https://cors-anywhere.herokuapp.com/http://openweathermap.org/img/w/"+ data.weather[0].icon +
             ".png'/>" + tempP;
 
         document.getElementById("where").innerHTML =
