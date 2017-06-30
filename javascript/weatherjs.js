@@ -4,7 +4,7 @@
 var apiKeyWeahter = "593beecc69c07f226e7483b56508589a";
 var cityFld = "London";
 var countryFld = "UK";
-var urlWeatherJSON = "http://api.openweathermap.org/data/2.5/weather?q=" +
+var urlWeatherJSON = "https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?q=" +
     cityFld + "," + countryFld + "&APPID=" +
     apiKeyWeahter;
 
