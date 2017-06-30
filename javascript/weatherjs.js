@@ -27,7 +27,7 @@ function getWeather()
     cityFld = inputText[0];
     countryFld = inputText[1];
 
-    urlWeatherJSON = "http://api.openweathermap.org/data/2.5/weather?q=" +
+    urlWeatherJSON = "https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?q=" +
         cityFld + "," + countryFld + "&APPID=" +
         apiKeyWeahter;
 
@@ -77,7 +77,7 @@ function defaultWeather()
     cityFld = "Can Tho";
     countryFld = "VN";
 
-    urlWeatherJSON = "http://api.openweathermap.org/data/2.5/weather?q=" +
+    urlWeatherJSON = "https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?q=" +
         cityFld + "," + countryFld + "&APPID=" +
         apiKeyWeahter;
 
