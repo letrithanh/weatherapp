@@ -1,0 +1,60 @@
+body, html
+{
+    height: 100%;
+}
+
+.bg
+{
+    background-image: url(../image/10d.jpeg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.result-div
+{
+    /*border: 1px solid cyan;*/
+    opacity: 1;
+    width: 75%;
+    margin: 0 auto;
+    color: white;
+    /*transform: translate(-50%, -50%);*/
+}
+
+input[type="text"]
+{
+    background: transparent;
+    border: none;
+
+}
+
+input::placeholder
+{
+    color: white;
+}
+
+.test-div
+{
+    background-color: #ffffff;
+    opacity: 0.6;
+    display: inline-block;
+    width: 30%;
+    height: 80px;
+    padding: auto;
+}
+
+p
+{
+    color: rgb(124, 108, 201);
+}
+
+.center
+{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
